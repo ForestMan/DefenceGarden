@@ -1,0 +1,13 @@
+[version]
+signature="$CHICAGO$"
+AdvancedINF=2.0
+
+[Add.Code]
+$name.dll=$name.dll
+
+[$name.dll]
+file-win32-x86=thiscab
+clsid={$guid0}
+FileVersion=$version
+RegisterServer=yes
+

@@ -1,0 +1,25 @@
+<config>
+  <gameName>$shortName</gameName>
+  <gameType>ActiveX</gameType>
+  <loadType>Manual</loadType>  
+  <gameLoad>GameFiles\$shortNameLoader.js</gameLoad>
+  <width>$width</width>
+  <height>$height</height>
+  <proxyAPI></proxyAPI>
+  <gameBase></gameBase>
+  <gameHideMode>offscreen</gameHideMode>
+  <param>
+    <name>BroadcastTime</name>
+    <value>7</value>
+  </param>
+  
+  <customEvent>true</customEvent>
+  <dataBroadcast>false</dataBroadcast>
+  <gameBreak>true</gameBreak>
+  <gameEnd>true</gameEnd>
+  <gameError>false</gameError>
+  <propertyRead>false</propertyRead>
+  <propertyWrite>false</propertyWrite>
+  <scoreBroadcast>true</scoreBroadcast>
+  <scoreSubmit>true</scoreSubmit>
+</config>

@@ -1,0 +1,51 @@
+[Executive Producer]	| [Original Game Design]
+XXXXXXXXX		| XXXXXXXXX
+
+[Producers]		| [Software Engineering]
+XXXXXXXXX		| XXXXXXXXX
+XXXXXXXXX		| XXXXXXXXX
+
+[Art Director]		| [Quality Assurance]
+XXXXXXXXX		| XXXXXXXXX
+			| XXXXXXXXX
+[Artists]		| XXXXXXXXX
+XXXXXXXXX		|
+XXXXXXXXX		|
+
+[Background Painting]
+XXXXXXXXX
+
+[Animation and Coloring]
+XXXXXXXXX
+
+[Audio]
+XXXXXXXXX
+
+[Level Design]
+XXXXXXXXX
+
+[Voices]
+<i>XXXXXXXXX:</i>
+XXXXXXXXX
+
+<i>XXXXXXXXX:</i>
+XXXXXXXXX
+
+[Playground Game Engine]
+Tim Mensch <i>(Lead)</i>
+Reggie Seagraves <i>(Mac Lead)</i>
+Brad Edelman
+Jim Brooks
+
+[Special Thanks]
+XXXXXXXXX
+XXXXXXXXX
+XXXXXXXXX
+XXXXXXXXX
+XXXXXXXXX
+XXXXXXXXX
+
+[This game was built using the Playground SDK™.]
+
+[Copyright © 2007 PlayFirst, Inc.]
+[All Rights Reserved]

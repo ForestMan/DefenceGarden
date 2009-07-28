@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT sequence (img,framelist,script?) >
+<!ELEMENT img EMPTY >
+<!ELEMENT framelist (frame)+ >
+<!ELEMENT frame (anchor)* >
+<!ELEMENT script (#PCDATA) >
+<!ELEMENT anchor EMPTY >
+<!ATTLIST sequence
+    name        CDATA   #REQUIRED
+    source      CDATA   #REQUIRED
+    masksource  CDATA   #IMPLIED
+>
+<!ATTLIST img
+    name        CDATA   #REQUIRED
+    mask        CDATA   ""
+    w           CDATA   #REQUIRED
+    h           CDATA   #REQUIRED
+    regx        CDATA   #REQUIRED
+    regy        CDATA   #REQUIRED
+    xform       CDATA   #IMPLIED
+>
+<!ATTLIST frame
+    x           CDATA   #REQUIRED
+    y           CDATA   #REQUIRED
+    w           CDATA   #REQUIRED
+    h           CDATA   #REQUIRED
+    xform       CDATA   #IMPLIED
+    alpha       CDATA   #IMPLIED
+    regx        CDATA   #IMPLIED
+    regy        CDATA   #IMPLIED
+	name		CDATA	""
+>
+<!ATTLIST anchor
+    name        CDATA   #REQUIRED
+    x           CDATA   #REQUIRED
+    y           CDATA   #REQUIRED
+    rot         CDATA   #IMPLIED
+>
+<!ATTLIST script
+    default     CDATA   #IMPLIED
+	luascript	CDATA	""
+>

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?> 
+<settings>
+    <game>playgroundskeleton</game>
+    <gameversion>dl,pf,1.0</gameversion>
+    <serverversion>3.0</serverversion>
+    <firstpeek>0</firstpeek>
+    <locale>en</locale>
+    <hiscorelocal>0</hiscorelocal>
+    <hiscoreanon>0</hiscoreanon>
+</settings>

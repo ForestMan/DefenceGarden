@@ -1,0 +1,407 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>makeExcelStringTable utility</LastAuthor>
+  <Created>2006-10-04T22:28:33Z</Created>
+  <LastSaved>2006-10-04T22:28:33Z</LastSaved>
+  <Version>11.9999</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11640</WindowHeight>
+  <WindowWidth>15480</WindowWidth>
+  <WindowTopX>360</WindowTopX>
+  <WindowTopY>300</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <NumberFormat/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="strings">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="85" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:AutoFitWidth="0" ss:Width="200.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="699.75"/>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">windowtitle</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">The Defense Garden</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">gamemode1</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Simple Demo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">gamemode2</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Squares</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">options</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Options</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">optionsbutton</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">&amp;Options</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">highscores</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">High Scores</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">medals</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Medals</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">pause</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Pause</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">quit</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Quit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">back</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">&amp;Back</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">fullscreen</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">&amp;Full Screen</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">resume</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">&amp;Resume</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">yes</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">&amp;Yes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">no</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">&amp;No</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">quittitle</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Quit Defense Garden</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s21"><Data ss:Type="String">twodemosinfo</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">The window to the left is a simple noninteractive demo of the 3d pipeline. The window below demonstrates TAnimatedSprites (the butterflies) and the TLuaParticleSystem (the smoke trails). Right click to swap particle types.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">help</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Help</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">help1</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">This is the first help page.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">help2</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">This is the second help page.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">version</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Version: %1%</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">done</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">&amp;Done</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">prev</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">&amp;Previous</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">next</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">&amp;Next</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">squaresinfo</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Someday we hope to have more of a game here. For now you can use this space for your own sample projects.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">quitconfirm</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Are you sure you want to quit?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">deletetitle</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Delete Player</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">deleteconfirm</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Delete this player profile? Saved Games, High Scores, and Medals will be removed.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">screenswitchfailed</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Unable to switch screen modes.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">playground</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Defense Garden</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">ok</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">OK</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">cancel</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Cancel</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">mutesound</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">&amp;Mute All Sound</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">musiclevel</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Music Volume</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">sfxlevel</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Sound Volume</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">gameover</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Game Over</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">earnscore</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Would you like to log high score and medals for this session? Set the score and check which medals you would like to log.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">medal1</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Medal 1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">medal2</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Medal 2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">earnedscore</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Score</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">logscore</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Log Score</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">donotlog</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Don't Log Score</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">highscoreheader</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">High Scores</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">localhighscores</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Local High Scores</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">globalhighscores</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Global High Scores</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">topplayers</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Top Players</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">enternameprompt</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">&lt;i&gt;Enter your name&lt;/i&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">pleaseenteraname</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Please enter a name.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">connectingtoserver</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Connecting to server</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">globalhighscoreinfo</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Global high scores allow you to compare your high scores against people across the globe.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">eligible</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Submit your name and score to the global list</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">eligibleasterisk</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">*Global score list maintained by PlayFirst: http://www.playfirst.com/privacypolicy.html  For privacy purposes, you should not use your full name as your player name.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">congratshighscore</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Congratulations! You earned a new global high score!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">scorednq</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Your score did not qualify for a new global high score.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">yourrank</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Your Rank: %1%</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">moreinfo</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">More &amp;Info</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">viewglobal</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">View Global High Scores</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">viewlocal</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">View Local High Scores</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">submit</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">&amp;Submit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">resubmit</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">&amp;Resubmit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51">
+    <Cell ss:StyleID="s21"><Data ss:Type="String">highscorecompleteinfo</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">PlayFirst global high scores allow you to compare your scores with people across the globe. &lt;br&gt;&lt;br&gt;Log scores anonymously or personalize your high score listings by entering your PlayFirst user name and password. PlayFirst members are identified with a P1 icon. &lt;br&gt;&lt;br&gt;If you are not already a PlayFirst member, register for a free account by visiting http://www.playfirst.com. &lt;br&gt;&lt;br&gt;The PlayFirst privacy policy can be viewed by clicking this link: &lt;a id='privacypolicy'&gt;&lt;font size = &quot;18&quot; color '0000ff'&gt;&lt;u&gt;Privacy Policy&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s21"><Data ss:Type="String">privacy</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">By submitting this form, you acknowledge that this information will be publicly available.  &lt;a id='privacybutton'&gt;&lt;font color '0000ff'&gt;&lt;u&gt;Privacy Policy&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s21"><Data ss:Type="String">privacy_info</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">By submitting this form, you acknowledge that this information will be publicly available.  &lt;a id='privacybutton'&gt;&lt;font color '0000ff'&gt;&lt;u&gt;Privacy Info&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s21"><Data ss:Type="String">privacy_anon</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Please do not include any personal information such as your contact information when you submit your high score.  By submitting, the name you enter and your high score information is transmitted to PlayFirst, Inc.'s servers and will be available for others to see.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">submitglobal</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Submit Global High Score</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">playerlabel</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Player:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">scorelabel</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Your Score:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">yourpfaccount</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Your PlayFirst Account</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">namelabel</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Name:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">passwordlabel</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Password:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">rememberpfaccount</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Remember My PlayFirst Account</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">medaldescrip1</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Earned by earning medal 1 in either game mode</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">medaldescrip2</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Earned by earning medal 2 in game mode 1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">medaldescrip3</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Earned by earning medal 2 in game mode 2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">medalsuccess</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Your medals have been successfully submitted.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">welcome</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Welcome, %1%</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">entername</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Please Enter Your Name</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">changeplayer</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Change Player</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">newplayer</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">&amp;New Player</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">deleteplayer</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">&amp;Delete Player</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">editname</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">&amp;Edit Name</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">selectaplayer</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Select A Player</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">nameinuse</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">That name is already in use. Please choose a different name.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">credits</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Credits</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">creditsbutton</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">&amp;Credits</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">playmovie</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Play Movie</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>11</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
