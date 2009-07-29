@@ -1,0 +1,85 @@
+PLAYGROUND SDK END USER SOFTWARE LICENSE AGREEMENT
+
+
+THIS IS A LICENSE AGREEMENT ("AGREEMENT") BETWEEN PLAYFIRST, INC. ("PLAYFIRST"), AND YOU ( "YOU" OR "LICENSEE") FOR USE OF PLAYGROUND SDK. PLAYFIRST IS WILLING TO GRANT LICENSEE THE LICENSE TO USE PLAYGROUND SDK ACCORDING ONLY ON THE CONDITION THAT LICENSEE ACCEPTS ALL TERMS IN THIS AGREEMENT.
+
+BY CLICKING ON THE "YES" OR "ACCEPT" BUTTON BELOW OR OTHERWISE COMPLETING THE INSTALLATION PROCESS, YOU ACKNOWLEDGE THAT YOU, IN YOUR PERSONAL CAPACITY (IF THIS AGREEMENT IS FOR YOUR PERSONAL USE) OR AS AUTHORIZED AGENT FOR YOUR COMPANY (IF THIS AGREEMENT IF FOR THE USE OF AN ENTITY), HAVE READ THIS AGREEMENT, UNDERSTAND IT, AND AGREE TO BE BOUND BY IT. IF YOU DO NOT AGREE TO ANY OF THE TERMS BELOW, PLAYFIRST DOES NOT LICENSE PLAYGROUND SDK TO YOU, AND YOU SHOULD CLICK ON THE "NO" OR "DO NOT ACCEPT" BUTTON BELOW OR OTHERWISE DISCONTINUE THE INSTALLATION PROCESS.
+
+If Licensee has entered or enters into a separate agreement with PlayFirst for the development or distribution of any Games to be developed using Playground SDK, the terms of that agreement shall govern with respect to such Games notwithstanding any provision herein to the contrary.
+
+
+1. COPYRIGHT AND NOTICE.
+
+a. Playground SDK is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. All title and copyrights in and to Playground SDK (including but not limited to any images, photographs, animations, video, music, text and "applets" incorporated into Playground SDK) and any printed materials accompanying Playground SDK are owned by the PlayFirst or its suppliers.
+
+b. Licensee shall notify PlayFirst prior to the commercial release of any Game via email at
+developer@playfirst.com
+and, unless instructed otherwise by PlayFirst, include in each Game a credit stating:
+"This game was developed using Playground SDK and incorporates portions of Playground SDK (www.playfirst.com), © 2007 PlayFirst, Inc.".
+
+c. Licensee grants PlayFirst, for marketing purposes, a non-exclusive, perpetual, worldwide, royalty-free license to use the Licensee trade-names and trademarks (which include without limitation Licensee name and Game name) to indicate Licensee is a licensee of Playground SDK.
+
+
+2. LIMITED GRANT OF LICENSE.
+Playground SDK is licensed and not sold and its use is subject to this Agreement. Subject to Licensee’s compliance with the terms and conditions of this Agreement and in consideration of Licensee’s agreement to be bound by this Agreement, PlayFirst grants Licensee a limited, non-transferable, non-sublicensable, non-assignable, non-exclusive license to use Playground SDK solely as necessary to publicly sell, distribute, release, publish, transmit, and exploit any electronic single or multi-user games ("Games") created using Playground SDK. PlayFirst reserves all rights not expressly granted to Licensee in this Agreement. Licensee agrees to pay any sales, use, value added, or other tax or charge imposed or assessed by any governmental entity.
+
+
+3. PERMITTED USES.
+Subject to the compliance with the terms herein, Licensee may install and use Playground SDK only within premises owned and controlled by Licensee for the purposes of making Games during the Term.
+
+
+4. RESTRICTIONS.
+
+a. Licensee may not reverse engineer, modify, disassemble, decompile or otherwise attempt to access the source code to Playground SDK.
+
+b. Licensee may not use or otherwise associate Playground SDK with any Game or other content, software, or other material that is pornographic, obscene, inflammatory, discriminatory, or otherwise illegal.
+
+c. Licensee may not delete or obscure any copyright, trademark or other proprietary notice on Playground SDK or accompanying printed materials.
+
+d. Licensee may not create any derivative works of Playground SDK, including translations or localizations.
+
+e. Licensee may not redistribute, encumber, sell, rent, lease, sublicense, or otherwise transfer rights to Playground SDK.
+
+f. Licensee may not evade any digital rights management technology, copyright protection, access restrictions or other authorization mechanisms for Playground SDK. Licensee may not circumvent any encrypted data protections or gain access to data that is not licensed.
+
+g. Licensee may not use "PlayFirst," "Playground" or other PlayFirst trademark in the name of any Game, to promote any Game, or to suggest any endorsement of any Game.
+
+
+5. TERMINATION.
+This Agreement is effective until terminated. Licensee may terminate this Agreement at any time by destroying Playground SDK. PlayFirst may terminate this Agreement upon notice using the contact information provided by Licensee, provided that Games already generally publicly available may continue to be distributed provided Licensee is in full compliance with this Agreement. This Agreement will terminate automatically without notice from PlayFirst if Licensee fails to comply with any provision of this Agreement. Upon notice of termination, Licensee agrees to promptly destroy all of its copies of Playground SDK. Licensee may not distribute any Games if this Agreement is terminated because of Licensee’s breach. All provisions of this Agreement as to warranties, limitation of liability, remedies and damages will survive termination. The parties agree to waive any provisions, procedures and the operation of any legislation to the extent that a court order or approval is required to terminate this Agreement.
+
+
+6. DISCLAIMER OF WARRANTY. PLAYGROUND SDK IS PROVIDED TO LICENSEE "AS IS" AND PLAYFIRST AND ITS SUPPLIERS EXPRESSLY DISCLAIM ALL WARRANTIES AND CONDITIONS, EXPRESS, IMPLIED OR STATUTORY, INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY PLAYFIRST, ITS EMPLOYEES, DISTRIBUTORS, DEALERS, OR AGENTS SHALL INCREASE THE SCOPE OF THE ABOVE WARRANTIES OR CREATE ANY NEW WARRANTIES. PLAYFIRST HAS NO OBLIGATION TO PROVIDE ANY SUPPORT AND MAY DISCONTINUE PLAYGROUND SDK AT ANY TIME IN ITS SOLE DISCRETION.
+
+
+7. LIMITATION OF LIABILITY.
+
+a. REGARDLESS OF WHETHER ANY REMEDY SET FORTH HEREIN FAILS OF ITS ESSENTIAL PURPOSE OR OTHERWISE, IN NO EVENT WILL PLAYFIRST OR ITS SUPPLIERS BE LIABLE TO LICENSEE OR TO ANY THIRD PARTY FOR ANY LOST PROFITS, LOST DATA, INTERRUPTION OF BUSINESS, OR OTHER SPECIAL, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES (WHETHER BASED IN CONTRACT, TORT, OR STATUTE) ARISING OUT OF THE USE OR INABILITY TO USE PLAYGROUND SDK OR ANY DATA SUPPLIED THEREWITH, EVEN IF PLAYFIRST HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS OR DAMAGES AND WHETHER OR NOT SUCH LOSS OR DAMAGES ARE FORESEEABLE.
+
+b. PLAYFIRST IS NOT RESPONSIBLE FOR ANY LIABILITY ARISING OUT OF CONTENT, SOFTWARE, OR MATERIALS OF ANY NATURE THAT ARE PROVIDED BY LICENSEE OR A THIRD PARTY AND USED WITH PLAYGROUND SDK. LICENSEE FURTHER AGREES TO INDEMNIFY AND HOLD PLAYFIRST HARMLESS FROM ANY AND ALL DAMAGES, COSTS, AND EXPENSES FINALLY AWARDED BY A COURT OR COMPETENT JURISDICTION AGAINST PLAYFIRST FOR ANY ACTION, SUIT, PROCEEDING, DEMAND, ACCESSMENT, OR JUDGMENT ARISING OUT OF SUCH CONTENT, SOFTWARE, OR MATERIALS.
+
+c. IN NO EVENT SHALL THE LIABILITY OF PLAYFIRST EXCEED THE AMOUNT RECEIVED BY PLAYFIRST FROM LICENSEE UNDER THIS AGREEMENT OR ONE U.S. DOLLAR ($1.00) IF PLAYFIRST IS NOT IN RECEIPT OF ANY MONIES FROM LICENSEE.
+
+d. In jurisdictions that do not allow the exclusion or limitation of liability for consequential, special or incidental damages, PlayFirst’s liability under this Agreement shall be limited to the maximum extent permitted by applicable law. Nothing in this Agreement limits PlayFirst’s liability for fraudulent misrepresentation or for death or physical injury directly caused by PlayFirst’s negligence to the extent such limitation is unenforceable under applicable law.
+
+e. PlayFirst shall have the right to obtain injunctive or administrative relief in any court of competent jurisdiction or through any administrative authority having jurisdiction over a party in the event of a breach of the terms of this Agreement.
+
+
+8. EXPORT CONTROL.
+Playground SDK and related technology are subject to U.S. export control laws and may be subject to export or import regulations in other countries. Licensee agrees to strictly comply with all such laws and regulations and acknowledges that Licensee has the responsibility to obtain such licenses to export, re-export or import as may be required.
+
+
+9. U.S. GOVERNMENT END USERS.
+The software and documentation are "commercial items" as that term is defined at 48 C.F.R. 2.101, consisting of "commercial computer software" and "commercial computer software documentation" as such terms are used in 48 C.F.R. 12.212. Consistent with 48 C.F.R. 12.212 and 48 C.F.R. 227.7202-1 through 227.7202-4, all U.S. Government end users acquire the software and documentation with only those rights set forth herein.
+
+
+10. GENERAL.
+This Agreement will be governed by the laws of the State of California in the United States of America, without regard to or application of conflicts of law rules or principles. The Federal and State Courts located in San Francisco County shall have sole jurisdiction over any disputes arising hereunder and the parties hereby submit to the personal jurisdiction of such courts. If any provision of this Agreement is held to be unenforceable, that provision will be removed and the remaining provisions will remain in full force. In the event any proceeding or lawsuit is brought by PlayFirst or Licensee in connection with this Agreement, the prevailing party in such proceeding or lawsuit shall be entitled to receive its costs, expert witness fees and reasonable attorney’s fees, including costs and fees on appeal. The failure of either party to require performance by the other party of any provision hereof shall not affect the full right to require such performance at any time thereafter; nor shall the waiver by either party of a breach of any provision hereof, unless the waiver is in writing by Licensee or an authorized agent of PlayFirst, be taken or held to be a waiver of the provision itself. This Agreement is the complete and exclusive statement of the agreement between PlayFirst and Licensee which supersedes any proposal or prior agreement, oral or written, and any other communications between the parties in relation to the subject matter of this Agreement. This Agreement shall not be modified except by a subsequently dated written amendment or exhibit signed by both parties by their duly authorized representatives. Licensee represents and warrants that Licensee has entered into this Agreement of Licensee’s own free will and that Licensee is above the age of minority at the time Licensee agrees to this Agreement or that Licensee’s legal guardian consents to these terms on its behalf. Additionally, if Licensee is a legal entity (e.g., corporation, partnership, etc.) the person consenting to this Agreement represents and warrants that he or she is an authorized agent of such entity and this Agreement legally obligates such entity to the terms and conditions of this Agreement.
+
+
+PLAYGROUND SDK IS PROTECTED BY UNITED STATES COPYRIGHT LAW AND INTERNATIONAL TREATY.
+UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+
+© Copyright 2007, PlayFirst, Inc. All Rights Reserved.
+
+PlayFirst, the PlayFirst logo, and Playground SDK are trademarks of PlayFirst, Inc. in the United States and other countries.

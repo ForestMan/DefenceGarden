@@ -1,0 +1,319 @@
+Code that goes into Playground library and linked products:
+
+product     home page               license terms
+==============================================================================
+Blowfish    http://www.bouncycastle.org Free/Attributions:Modified MIT license.
+STLport     http://stlport.org          Free: http://stlport.org/doc/license.html
+Lua         http://lua.org              Free/Attributions: MIT license.
+LuaPlus     http://luaplus.org          Free/Attributions: MIT license.
+Boost       http://boost.org            Free:http://boost.org/LICENSE_1_0.txt
+JPEG        http://www.ijg.org          Free/Attributions:See below.
+OGG/Vorbis  http://www.vorbis.com       Free/Attributions:Modified MIT license.
+libpng      http://www.libpng.org       Free:http://www.libpng.org/pub/png/src/libpng-LICENSE.txt
+zlib        http://www.zlib.org         Free:http://www.zlib.net/zlib_license.html
+JasPer      http://tinyurl.com/jpeg2000 Free/Attributions:See below.
+MetaKit     http://equi4.com/metakit    Free/Attributions:MIT license.
+
+Code that goes into tools only:
+
+product     home page               license terms
+==============================================================================
+wxWidgets   http://wxwindows.org         Free:wxWindows Licence: http://www.wxwindows.org/licence3.txt
+ImageMagick http://imagemagick.org       Free/Attribution: http://www.imagemagick.org/script/license.php
+pngnq       http://pngnq.sourceforge.net Free/Attribution:License below
+NeuQuant    http://tinyurl.com/neuquant  Free/Attribution:License below
+
+==============================================================================
+Attributions Required For Distributed Games:
+
+------------------------------------------------------------------------------
+JPEG:
+------------------------------------------------------------------------------
+"This software is based in part on the work of the Independent JPEG Group"
+
+------------------------------------------------------------------------------
+MetaKit:
+------------------------------------------------------------------------------
+Copyright (c) 1996-2004 Jean-Claude Wippler
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+------------------------------------------------------------------------------
+JasPer:
+------------------------------------------------------------------------------
+JasPer License Version 2.0
+
+Copyright (c) 2001-2006 Michael David Adams
+Copyright (c) 1999-2000 Image Power, Inc.
+Copyright (c) 1999-2000 The University of British Columbia
+
+All rights reserved.
+
+Permission is hereby granted, free of charge, to any person (the
+"User") obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify, merge,
+publish, distribute, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, subject to the
+following conditions:
+
+1.  The above copyright notices and this permission notice (which
+includes the disclaimer below) shall be included in all copies or
+substantial portions of the Software.
+
+2.  The name of a copyright holder shall not be used to endorse or
+promote products derived from the Software without specific prior
+written permission.
+
+THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS
+LICENSE.  NO USE OF THE SOFTWARE IS AUTHORIZED HEREUNDER EXCEPT UNDER
+THIS DISCLAIMER.  THE SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS
+"AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS.  IN NO
+EVENT SHALL THE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL
+INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING
+FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,
+NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION
+WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.  NO ASSURANCES ARE
+PROVIDED BY THE COPYRIGHT HOLDERS THAT THE SOFTWARE DOES NOT INFRINGE
+THE PATENT OR OTHER INTELLECTUAL PROPERTY RIGHTS OF ANY OTHER ENTITY.
+EACH COPYRIGHT HOLDER DISCLAIMS ANY LIABILITY TO THE USER FOR CLAIMS
+BROUGHT BY ANY OTHER ENTITY BASED ON INFRINGEMENT OF INTELLECTUAL
+PROPERTY RIGHTS OR OTHERWISE.  AS A CONDITION TO EXERCISING THE RIGHTS
+GRANTED HEREUNDER, EACH USER HEREBY ASSUMES SOLE RESPONSIBILITY TO SECURE
+ANY OTHER INTELLECTUAL PROPERTY RIGHTS NEEDED, IF ANY.  THE SOFTWARE
+IS NOT FAULT-TOLERANT AND IS NOT INTENDED FOR USE IN MISSION-CRITICAL
+SYSTEMS, SUCH AS THOSE USED IN THE OPERATION OF NUCLEAR FACILITIES,
+AIRCRAFT NAVIGATION OR COMMUNICATION SYSTEMS, AIR TRAFFIC CONTROL
+SYSTEMS, DIRECT LIFE SUPPORT MACHINES, OR WEAPONS SYSTEMS, IN WHICH
+THE FAILURE OF THE SOFTWARE OR SYSTEM COULD LEAD DIRECTLY TO DEATH,
+PERSONAL INJURY, OR SEVERE PHYSICAL OR ENVIRONMENTAL DAMAGE ("HIGH
+RISK ACTIVITIES").  THE COPYRIGHT HOLDERS SPECIFICALLY DISCLAIM ANY
+EXPRESS OR IMPLIED WARRANTY OF FITNESS FOR HIGH RISK ACTIVITIES.
+
+------------------------------------------------------------------------------
+Blowfish/Bouncy Castle:
+------------------------------------------------------------------------------
+The Bouncy Castle License
+
+Copyright (c) 2000 The Legion Of The Bouncy Castle (http://www.bouncycastle.org)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+and associated documentation files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+------------------------------------------------------------------------------
+OGG/Vorbis:
+------------------------------------------------------------------------------
+Copyright (c) 2002, Xiph.Org Foundation
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+- Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+
+- Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+- Neither the name of the Xiph.Org Foundation nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+------------------------------------------------------------------------------
+Lua:
+------------------------------------------------------------------------------
+Copyright © 1994-2005 Lua.org, PUC-Rio.
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+==============================================================================
+Attributions Required Only For Tools:
+
+--------------------------------------------------------------------------
+NeuQuant Neural-Net Quantization Algorithm
+--------------------------------------------------------------------------
+  Copyright (c) 1994 Anthony Dekker
+
+  NEUQUANT Neural-Net quantization algorithm by Anthony Dekker, 1994.
+  See "Kohonen neural networks for optimal colour quantization"
+  in "Network: Computation in Neural Systems" Vol. 5 (1994) pp 351-367.
+  for a discussion of the algorithm.
+  See also  http://members.ozemail.com.au/~dekker/NEUQUANT.HTML
+
+  Any party obtaining a copy of these files from the author, directly or
+  indirectly, is granted, free of charge, a full and unrestricted irrevocable,
+  world-wide, paid up, royalty-free, nonexclusive right and license to deal
+  in this software and documentation files (the "Software"), including without
+  limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+  and/or sell copies of the Software, and to permit persons who receive
+  copies from any such party to do so, with the only requirement being
+  that this copyright notice remain intact.
+
+--------------------------------------------------------------------------
+pngnq
+--------------------------------------------------------------------------
+
+  Copyright (c) 2004-2007 Stuart Coyle
+
+  Copyright (c) 1998-2001 Greg Roelofs.  All rights reserved.
+
+  This software is provided "as is," without warranty of any kind,
+  express or implied.  In no event shall the author or contributors
+  be held liable for any damages arising in any way from the use of
+  this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute
+  it freely, subject to the following restrictions:
+
+  1. Redistributions of source code must retain the above copyright
+     notice, disclaimer, and this list of conditions.
+  2. Redistributions in binary form must reproduce the above copyright
+     notice, disclaimer, and this list of conditions in the documenta-
+     tion and/or other materials provided with the distribution.
+  3. All advertising materials mentioning features or use of this
+     software must display the following acknowledgment:
+
+        This product includes software developed by Greg Roelofs
+        and contributors for the book, "PNG: The Definitive Guide,"
+        published by O'Reilly and Associates.
+
+
+==============================================================================
+
+Full JPEG license -- not required to be included in docs.
+------------------------------------------------------------------------------
+The authors make NO WARRANTY or representation, either express or implied,
+with respect to this software, its quality, accuracy, merchantability, or
+fitness for a particular purpose.  This software is provided "AS IS", and you,
+its user, assume the entire risk as to its quality and accuracy.
+
+This software is copyright (C) 1991-1998, Thomas G. Lane.
+All Rights Reserved except as specified below.
+
+Permission is hereby granted to use, copy, modify, and distribute this
+software (or portions thereof) for any purpose, without fee, subject to these
+conditions:
+(1) If any part of the source code for this software is distributed, then this
+README file must be included, with this copyright and no-warranty notice
+unaltered; and any additions, deletions, or changes to the original files
+must be clearly indicated in accompanying documentation.
+(2) If only executable code is distributed, then the accompanying
+documentation must state that "this software is based in part on the work of
+the Independent JPEG Group".
+(3) Permission for use of this software is granted only if the user accepts
+full responsibility for any undesirable consequences; the authors accept
+NO LIABILITY for damages of any kind.
+
+These conditions apply to any software derived from or based on the IJG code,
+not just to the unmodified library.  If you use our work, you ought to
+acknowledge us.
+
+Permission is NOT granted for the use of any IJG author's name or company name
+in advertising or publicity relating to this software or products derived from
+it.  This software may be referred to only as "the Independent JPEG Group's
+software".
+
+We specifically permit and encourage the use of this software as the basis of
+commercial products, provided that all warranty or liability claims are
+assumed by the product vendor.
+
+
+ansi2knr.c is included in this distribution by permission of L. Peter Deutsch,
+sole proprietor of its copyright holder, Aladdin Enterprises of Menlo Park, CA.
+ansi2knr.c is NOT covered by the above copyright and conditions, but instead
+by the usual distribution terms of the Free Software Foundation; principally,
+that you must include source code if you redistribute it.  (See the file
+ansi2knr.c for full details.)  However, since ansi2knr.c is not needed as part
+of any program generated from the IJG code, this does not limit you more than
+the foregoing paragraphs do.
+
+The Unix configuration script "configure" was produced with GNU Autoconf.
+It is copyright by the Free Software Foundation but is freely distributable.
+The same holds for its supporting scripts (config.guess, config.sub,
+ltconfig, ltmain.sh).  Another support script, install-sh, is copyright
+by M.I.T. but is also freely distributable.
+
+It appears that the arithmetic coding option of the JPEG spec is covered by
+patents owned by IBM, AT&T, and Mitsubishi.  Hence arithmetic coding cannot
+legally be used without obtaining one or more licenses.  For this reason,
+support for arithmetic coding has been removed from the free JPEG software.
+(Since arithmetic coding provides only a marginal gain over the unpatented
+Huffman mode, it is unlikely that very many implementations will support it.)
+So far as we are aware, there are no patent restrictions on the remaining
+code.
+
+The IJG distribution formerly included code to read and write GIF files.
+To avoid entanglement with the Unisys LZW patent, GIF reading support has
+been removed altogether, and the GIF writer has been simplified to produce
+"uncompressed GIFs".  This technique does not use the LZW algorithm; the
+resulting GIF files are larger than usual, but are readable by all standard
+GIF decoders.
+
+We are required to state that
+    "The Graphics Interchange Format(c) is the Copyright property of
+    CompuServe Incorporated.  GIF(sm) is a Service Mark property of
+    CompuServe Incorporated."
+
+------------------------------------------------------------------------------
+
