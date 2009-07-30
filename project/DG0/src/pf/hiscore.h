@@ -13,7 +13,7 @@
 #ifndef HISCORE_H_INCLUDED
 #define HISCORE_H_INCLUDED
 
-#include "game.h"
+#include "TGameWindow.h"
 #include "settings.h"
 
 #include <pf/pflib.h>

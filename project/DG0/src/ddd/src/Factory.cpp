@@ -69,7 +69,12 @@ namespace ddd
 
 	Game* Factory::createGame( const char* name )
 	{
-		return 0;
+		Game* result( 0 );
+		if ( !strcmp( name, "game" ) )
+		{
+			result = new Game();
+		}
+		return result;
 	}
 	
 	Level* Factory::createLevel( const char* name )

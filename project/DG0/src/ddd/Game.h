@@ -2,10 +2,11 @@
 
 #include "ddd/ILua.h"
 #include "ddd/Container.h"
+#include "ddd/Level.h"
 
 namespace ddd
 {
-	class Level;
+	//class Level;
 
 	class Game 
 		: public ILua

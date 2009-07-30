@@ -24,7 +24,7 @@ namespace ddd
 	void ILua::init( TLuaTable* const luaTable )
 	{
 		luaTable_ = new TLuaTable( *luaTable );
-		setID( MAX_UNSIGN_LONG );
+		//setID( MAX_UNSIGN_LONG );
 		luaFunctions_.clear();
 		onInit();
 	}

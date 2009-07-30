@@ -1,6 +1,6 @@
 
 require( "scripts/ddd/ilua.lua" );
-require( "scripts/ddd/game.lua" );
+require( "scripts/ddd/Factory.lua" );
 
 --------------------------------------------------------------------------------
 
@@ -10,9 +10,9 @@ classInheritance( Application, ILua )
 
 --------------------------------------------------------------------------------
 
+GAME_DEFENCE_GARDEN = 1;
+
 function Application:onInit()
-	game=Game:new();
-	game.type_="game";
-	addGame( game );
+	createGame( "game", GAME_DEFENCE_GARDEN );
 	return true;
 end

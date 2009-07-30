@@ -398,14 +398,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\pf\game.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\pf\game.h"
-				>
-			</File>
-			<File
 				RelativePath=".\pf\globaldefines.h"
 				>
 			</File>
@@ -463,6 +455,14 @@
 			</File>
 			<File
 				RelativePath=".\pf\settings.h"
+				>
+			</File>
+			<File
+				RelativePath=".\pf\TGameWindow.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\pf\TGameWindow.h"
 				>
 			</File>
 			<File
@@ -550,6 +550,10 @@
 				</File>
 				<File
 					RelativePath="..\assets\scripts\ddd\Application.lua"
+					>
+				</File>
+				<File
+					RelativePath="..\assets\scripts\ddd\Factory.lua"
 					>
 				</File>
 				<File

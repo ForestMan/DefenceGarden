@@ -15,7 +15,7 @@
 
 #include "main.h"
 #include "globaldefines.h"
-#include "game.h"
+#include "TGameWindow.h"
 #include "mainmenu.h"
 #include "options.h"
 #include "settings.h"

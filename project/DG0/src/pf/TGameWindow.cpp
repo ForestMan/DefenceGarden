@@ -9,7 +9,7 @@
 //------------------------------------------------------------------
 
 
-#include "game.h"
+#include "TGameWindow.h"
 #include "globaldefines.h"
 #include "settings.h"
 
