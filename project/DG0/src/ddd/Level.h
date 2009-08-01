@@ -16,6 +16,10 @@ namespace ddd
 		virtual ~Level();
 
 	protected:
+
+		virtual void onInit();
+		virtual void onRelease();
+
 	private:
 	};
 }

@@ -79,7 +79,12 @@ namespace ddd
 	
 	Level* Factory::createLevel( const char* name )
 	{
-		return 0;
+		Level* result( 0 );
+		if ( !strcmp( name, "level" ) )
+		{
+			result = new Level();
+		}
+		return result;
 	}
 	
 	Actor* Factory::createActor( const char* name )
