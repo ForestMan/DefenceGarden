@@ -1,5 +1,6 @@
 #pragma once
 
+#include <pf/window.h>
 #include "ddd/ILua.h"
 #include "ddd/Container.h"
 
@@ -10,6 +11,7 @@ namespace ddd
 	class Level 
 		: public ILua
 		, public Container< Actor >
+		, public TWindow
 	{
 	public:
 		Level();
