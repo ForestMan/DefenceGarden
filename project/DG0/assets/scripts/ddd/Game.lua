@@ -20,6 +20,6 @@ classInheritance( Game, ILua )
 --------------------------------------------------------------------------------
 
 function Game:onInit()
-	createLevel( "level", 0, self.ID_ );
+	---createLevel( "level", 0, self.ID_ );
 	return true;
 end

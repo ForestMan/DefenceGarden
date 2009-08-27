@@ -198,7 +198,7 @@
 			>
 			<Tool
 				Name="VCPreBuildEventTool"
-				CommandLine="set PD=$(ProjectDir)&#x0D;&#x0A;set /P SDK=&lt;&quot;%PD%SDK.txt&quot;&#x0D;&#x0A;echo Sync&apos;ing SDK: %SDK%&#x0D;&#x0A;if defined SDK (%SDK:/=\%\bin\dirsync.exe -dst &quot;%PD%..\pflib&quot;)&#x0D;&#x0A;if not defined SDK echo Error: SDK Location Not Defined&#x0D;&#x0A;"
+				CommandLine=""
 			/>
 			<Tool
 				Name="VCCustomBuildTool"
@@ -214,7 +214,7 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="../pflib/include"
+				AdditionalIncludeDirectories="../pflib/include;.\..\..\..\external\playground\include;.\..\src\pf;.\..\src;.\..\..\..\external"
 				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS"
 				ExceptionHandling="1"
 				RuntimeLibrary="0"
@@ -238,7 +238,7 @@
 				AdditionalDependencies="iphlpapi.lib WS2_32.lib pflib.lib User32.lib winmm.lib wininet.lib Version.lib odbc32.lib odbccp32.lib "
 				OutputFile="../playgroundskeleton_dll.exe"
 				LinkIncremental="1"
-				AdditionalLibraryDirectories="../pflib/lib/"
+				AdditionalLibraryDirectories="../pflib/lib/;.\..\..\..\external\playground\lib"
 				IgnoreDefaultLibraryNames="comdlg32"
 				GenerateDebugInformation="true"
 				GenerateMapFile="true"

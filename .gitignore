@@ -54,3 +54,30 @@
 /project/DG0/src/Debug/defense_garden_debug.exe.intermediate.manifest
 /project/DG0/src/Release/vc90.idb
 /project/DG0/src/Debug/Game.obj
+/project/DG0/playgroundskeleton_dll.exp
+/project/DG0/playgroundskeleton_dll.lib
+/project/DG0/playgroundskeleton_dll.map
+/project/DG0/playgroundskeleton_dll.pdb
+/project/DG0/src/Release DLL/Actor.obj
+/project/DG0/src/Release DLL/Application.obj
+/project/DG0/src/Release DLL/BuildLog.htm
+/project/DG0/src/Release DLL/Factory.obj
+/project/DG0/src/Release DLL/Game.obj
+/project/DG0/src/Release DLL/ILua.obj
+/project/DG0/src/Release DLL/Level.obj
+/project/DG0/src/Release DLL/TGameWindow.obj
+/project/DG0/src/Release DLL/chooseplayer.obj
+/project/DG0/src/Release DLL/credits.obj
+/project/DG0/src/Release DLL/customtextedit.obj
+/project/DG0/src/Release DLL/fxsprite.obj
+/project/DG0/src/Release DLL/hiscore.obj
+/project/DG0/src/Release DLL/main.obj
+/project/DG0/src/Release DLL/mainmenu.obj
+/project/DG0/src/Release DLL/mt.dep
+/project/DG0/src/Release DLL/options.obj
+/project/DG0/src/Release DLL/playgroundskeleton_dll.exe.intermediate.manifest
+/project/DG0/src/Release DLL/rolloverwindow.obj
+/project/DG0/src/Release DLL/serversubmit.obj
+/project/DG0/src/Release DLL/settings.obj
+/project/DG0/src/Release DLL/skeleton.res
+/project/DG0/src/Release DLL/vc90.idb
