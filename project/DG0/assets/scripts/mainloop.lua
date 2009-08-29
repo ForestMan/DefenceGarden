@@ -15,6 +15,7 @@ function Main()
 	-- Push the game selection screen
 	while true do
 		DoMainWindow("scripts/mainmenu.lua");
+		--DoMainWindow("scripts/DGGameWindow.lua");
 		-- DoMainWindow will exit only if there are NO windows pushed on the stack, so
 		-- a PopModal()/PushModal() combination will not cause this to loop.
 	end

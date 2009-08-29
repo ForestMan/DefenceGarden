@@ -42,6 +42,7 @@
 #include <pf/prefsdb.h>
 
 #include "ddd/Application.h"
+#include "dg/GameWindow.h"
 
 void ddd::Application::initGameStates()
 {
@@ -117,6 +118,7 @@ void ddd::Application::initWindows( TPlatform* pPlatform )
 
 	TWindowManager * wm = TWindowManager::GetInstance();
 	wm->AddWindowType("GameWindow",TGameWindow::ClassId());
+	wm->AddWindowType("DGGameWindow",GameWindow::ClassId());
 	wm->AddWindowType("MainMenu",TMainMenu::ClassId());
 	wm->AddWindowType("OptionsWindow",TOptions::ClassId());
 	wm->AddWindowType("HiscoreWindow",THiscore::ClassId());

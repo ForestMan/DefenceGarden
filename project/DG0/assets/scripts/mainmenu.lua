@@ -79,7 +79,7 @@ MakeDialog
 							-- Tell TSettings what game mode we're entering
 							SetCurrentGameMode(1);
 							-- Switch to the appropriate screen
-							SwapToModal("scripts/game.lua");
+							SwapToModal("scripts/DGGameWindow.lua");
 							SetState( kGameMode, "samplegame" );
 						end
 					end
