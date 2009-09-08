@@ -485,6 +485,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\ddd\BaseWindow.h"
+				>
+			</File>
+			<File
 				RelativePath=".\ddd\Container.h"
 				>
 			</File>
@@ -501,6 +505,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\ddd\ILevelComponent.h"
+				>
+			</File>
+			<File
 				RelativePath=".\ddd\ILua.h"
 				>
 			</File>
@@ -509,7 +517,15 @@
 				>
 			</File>
 			<File
+				RelativePath=".\ddd\LogicLevelComponent.h"
+				>
+			</File>
+			<File
 				RelativePath=".\ddd\LuaUtils.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ddd\RenderLevelComponent.h"
 				>
 			</File>
 			<File
@@ -528,6 +544,10 @@
 					>
 				</File>
 				<File
+					RelativePath=".\ddd\src\BaseWindow.cpp"
+					>
+				</File>
+				<File
 					RelativePath=".\ddd\src\Factory.cpp"
 					>
 				</File>
@@ -536,11 +556,23 @@
 					>
 				</File>
 				<File
+					RelativePath=".\ddd\src\ILevelComponent.cpp"
+					>
+				</File>
+				<File
 					RelativePath=".\ddd\src\ILua.cpp"
 					>
 				</File>
 				<File
 					RelativePath=".\ddd\src\Level.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\ddd\src\LogicLevelComponent.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\ddd\src\RenderLevelComponent.cpp"
 					>
 				</File>
 			</Filter>
