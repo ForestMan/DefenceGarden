@@ -93,3 +93,9 @@
 /project/DG0/src/Debug/BaseWindow.obj
 /project/DG0/src/Debug/RenderLevelComponent.obj
 /project/DG0/src/Debug/LogicLevelComponent.obj
+/project/DG0/src/Debug/LevelWindow.obj
+/project/DG0/src/Release DLL/BaseWindow.obj
+/project/DG0/src/Release DLL/ILevelComponent.obj
+/project/DG0/src/Release DLL/LevelWindow.obj
+/project/DG0/src/Release DLL/LogicLevelComponent.obj
+/project/DG0/src/Release DLL/RenderLevelComponent.obj

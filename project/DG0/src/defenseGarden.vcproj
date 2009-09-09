@@ -517,6 +517,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\ddd\LevelWindow.h"
+				>
+			</File>
+			<File
 				RelativePath=".\ddd\LogicLevelComponent.h"
 				>
 			</File>
@@ -565,6 +569,10 @@
 				</File>
 				<File
 					RelativePath=".\ddd\src\Level.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\ddd\src\LevelWindow.cpp"
 					>
 				</File>
 				<File

@@ -9,7 +9,6 @@ namespace ddd
 
 	class BaseWindow 
 		: public TWindow
-		, public Container< ILevelComponent >
 	{
 		PFTYPEDEF_DC( BaseWindow, TWindow )
 	public:

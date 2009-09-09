@@ -1,15 +1,14 @@
 #pragma once
 
-#include <pf/window.h>
+#include <ddd/LevelWindow.h>
 
-class GameWindow : public TWindow
+class GameWindow 
+	: public ddd::LevelWindow
 {
-	PFTYPEDEF_DC(GameWindow,TWindow)
+	PFTYPEDEF_DC(GameWindow,ddd::LevelWindow)
 public:
 	GameWindow();
 	~GameWindow();
-
-	void Draw();
 
 	/**
 	 * Send a message to the game.
@@ -40,23 +39,7 @@ public:
 	 */
 	virtual void Init(TWindowStyle &style);
 
-	/**
-	 * Called if you have initiated a window animation with
-	 * TWindow::StartWindowAnimation.
-	 *
-	 * @return True to continue animating. False to stop.
-	 */
-	virtual bool OnTaskAnimate();
-
 	virtual bool OnChar(char key);
+
 private:
-
-	int	mRows;		// Number of rows in the square
-	int mColumns;	// Number of columns in the square
-
-	TReal mOffset ;
-
-	TTextureRef	mBigTex;
-
-	class TTextGraphic * mTG ;
 };

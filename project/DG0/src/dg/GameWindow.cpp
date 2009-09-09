@@ -12,9 +12,6 @@ GameWindow::GameWindow()
 {
 	TGameState::GetInstance()->SetState("++PlayedSimpleGame");
 
-	mBigTex = TTexture::Get("backgrounds/bigtex");
-	mOffset =0;
-
 	TPlatform::SetConfig( "vsync", "1" );
 }
 
@@ -25,65 +22,6 @@ GameWindow::~GameWindow()
 	TGameState::GetInstance()->SetState("end-status","SimpleGameComplete");
 
 	ScriptUnregisterFunction(TWindowManager::GetInstance()->GetScript(),"SendGameMessage");
-}
-
-void GameWindow::Draw()
-{
-	/*TBegin2d begin2d;
-	TRenderer * r = TRenderer::GetInstance();
-
-	r->FillRect( TURect(0,0,800,600), TColor(0,0,0,0) );
-
-	TTransformedLitVert verts[4];
-	TVec2 corners[4]=
-	{
-		TVec2(0,0),
-		TVec2(800,0),
-		TVec2(800,600),
-		TVec2(0,600)
-	};
-	while (mOffset>1)
-	{
-		mOffset--;
-	}
-	TVec2 uv[2]=
-	{
-		TVec2(0+mOffset,0+mOffset),
-		TVec2(1+mOffset,1+mOffset),
-	};
-
-	CreateVertsFromRect( TVec2(0,0),verts,corners,uv,TMat3(),1,TColor(1,1,1,1) ) ;
-
-	r->SetTexture(mBigTex);
-	r->SetTextureMapMode( TRenderer::kMapWrap, TRenderer::kMapWrap );
-	r->DrawVertices(TRenderer::kDrawTriFan, TVertexSet(verts,4) );*/
-
-}
-
-/**
- * Called if you have initiated a window animation with
- * TWindow::StartWindowAnimation.
- *
- * @return True to continue animating. False to stop.
- */
-bool GameWindow::OnTaskAnimate()
-{
-    // And don't forget to update the screen
-	/*TWindowManager::GetInstance()->InvalidateScreen();
-
-	mOffset += 0.01F ;
-
-	if (TGameState::GetInstance()->QueryJumpToMenu())
-	{
-		SendGameMessage("quit");
-	}
-	if (TGameState::GetInstance()->QueryRestartMode())
-	{
-		// Restart our game mode!
-	}*/
-
-    // Keep animating
-	return true;
 }
 
 /**
@@ -102,14 +40,7 @@ void GameWindow::Init(TWindowStyle &style)
 	TScript * s = TWindowManager::GetInstance()->GetScript();
 	ScriptRegisterMemberDirect(s,"SendGameMessage",this,GameWindow::SendGameMessage);
 
-    // Start the window animation
-    StartWindowAnimation( 16 );
-
-	mRows = style.GetInt("rows");
-	mColumns= style.GetInt("columns");
-
-	// Send keyboard events our way if no one else uses them
-	FindParentModal()->SetDefaultFocus(this);
+	ddd::LevelWindow::Init( style );
 }
 
 /**
@@ -122,7 +53,6 @@ void GameWindow::Init(TWindowStyle &style)
  */
 bool GameWindow::OnMouseDown(const TPoint & /*point*/)
 {
-
     return true;
 }
 
