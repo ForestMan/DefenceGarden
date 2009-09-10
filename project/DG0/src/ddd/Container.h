@@ -16,12 +16,18 @@ namespace ddd
 		inline void removeEntity( const unsigned long entityID );
 		inline void removeAllEntity();
 
+		inline TEntity* begin();
+		inline TEntity* getNextEntity();
+
 	private:
 		
 		inline const bool hasEntity( const unsigned long entityID );
 
 	private:
-		std::map< unsigned long, TEntity* >entityMap_;
+		typedef std::map< unsigned long, TEntity* > ContainerMap;
+
+		ContainerMap entityMap_;
+		typename ContainerMap::iterator iterContainer_;
 	};
 
 	//-------------------------------------------------------------------------
@@ -57,6 +63,23 @@ namespace ddd
 	inline void Container< TEntity >::removeAllEntity()
 	{
 		entityMap_.clear();
+	}
+
+	//-------------------------------------------------------------------------
+
+	template< class TEntity >
+	inline TEntity* Container< TEntity >::begin()
+	{
+		iterContainer_ = entityMap_.begin();
+		return iterContainer_ == entityMap.end() ? 0 : iterContainer_.second;
+	}
+
+	//-------------------------------------------------------------------------
+
+	template< class TEntity >
+	inline TEntity* Container< TEntity >::getNextEntity()
+	{
+		iterContainer_ == entityMap.end() ? return 0 : ( iterContainer_++; return iterContainer_.second );
 	}
 
 	//-------------------------------------------------------------------------

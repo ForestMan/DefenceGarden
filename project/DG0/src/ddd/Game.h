@@ -2,7 +2,7 @@
 
 #include "ddd/ILua.h"
 #include "ddd/Container.h"
-#include "ddd/Level.h"
+#include "ddd/LevelWindow.h"
 
 namespace ddd
 {
@@ -10,7 +10,7 @@ namespace ddd
 
 	class Game 
 		: public ILua
-		, public Container< Level >
+		, public Container< LevelWindow >
 	{
 	public:
 		Game();

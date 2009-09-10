@@ -53,7 +53,7 @@ namespace ddd
 		Level* level = createLevel( levelTable->GetString( "type_" ).c_str() );
 		assert( 0 != level );
 		level->init( levelTable );
-		getApplication().getEntity( gameID ).addEntity( *level );
+		//getApplication().getEntity( gameID ).addEntity( *level );
 	}
 	
 	void Factory::addActor( TLuaTable* actorTable, 
@@ -64,7 +64,7 @@ namespace ddd
 		Actor* actor = createActor( actorTable->GetString( "type_" ).c_str() );
 		assert( 0 != actor );
 		actor->init( actorTable );
-		getApplication().getEntity( gameID ).getEntity( levelID ).addEntity( *actor );
+		//getApplication().getEntity( gameID ).getEntity( levelID ).addEntity( *actor );
 	}
 
 	Game* Factory::createGame( const char* name )

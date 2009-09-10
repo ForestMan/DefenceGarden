@@ -3,6 +3,9 @@
 #include <pf/pflib.h>
 #include "pf/debug.h"
 
+#include "ddd/Application.h"
+#include "ddd/Game.h"
+
 namespace ddd
 {
 	//-------------------------------------------------------------------------
@@ -19,6 +22,7 @@ namespace ddd
 
 	LevelWindow::~LevelWindow()
 	{
+		Application::get_mutable_instance().getEntity( 0 ).removeEntity( this->getID() );
 	}
 
 	//-------------------------------------------------------------------------
@@ -30,6 +34,8 @@ namespace ddd
 
 		// Send keyboard events our way if no one else uses them
 		FindParentModal()->SetDefaultFocus(this);
+
+		Application::get_mutable_instance().getEntity( 0 ).addEntity( *this );
 	}
 
 	//-------------------------------------------------------------------------
