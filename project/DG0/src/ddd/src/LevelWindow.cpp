@@ -22,12 +22,11 @@ namespace ddd
 
 	LevelWindow::~LevelWindow()
 	{
-		Application::get_mutable_instance().getEntity( 0 ).removeEntity( this->getID() );
 	}
 
 	//-------------------------------------------------------------------------
 
-	void LevelWindow::Init(TWindowStyle &style)
+	void LevelWindow::Init(TWindowStyle &/*style*/)
 	{
 		// Start the window animation
 		StartWindowAnimation( 16 );
@@ -35,19 +34,21 @@ namespace ddd
 		// Send keyboard events our way if no one else uses them
 		FindParentModal()->SetDefaultFocus(this);
 
-		Application::get_mutable_instance().getEntity( 0 ).addEntity( *this );
+		Application::get_mutable_instance().getEntity( 1 ).addEntity( *this );
 	}
 
 	//-------------------------------------------------------------------------
 
 	void LevelWindow::Draw()
 	{
+		getRenderComponent().render(this);
 	}
 
 	//-------------------------------------------------------------------------
 
 	bool LevelWindow::OnTaskAnimate()
 	{
+		getLogicComponent().update(this);
 		return true;
 	}
 

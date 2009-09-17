@@ -7,7 +7,7 @@
 
 namespace ddd
 {
-	class LogicLevelComponent;
+	class Actor;
 
 	class LevelWindow
 		: public BaseWindow
@@ -47,8 +47,8 @@ namespace ddd
 		inline void setID( const unsigned long levelID );
 		
 		//Level window interface
-		inline LogicLevelComponent& getLogicComponent();
-		inline RenderLevelComponent& getRenderComponent();
+		inline LogicLevelComponent& getLogicComponent()const;
+		inline RenderLevelComponent& getRenderComponent()const;
 
 	private:
 		
@@ -74,7 +74,7 @@ namespace ddd
 
 	//-------------------------------------------------------------------------
 
-	inline LogicLevelComponent& LevelWindow::getLogicComponent()
+	inline LogicLevelComponent& LevelWindow::getLogicComponent()const
 	{
 		assert(0 != logicComponent_);
 		return *logicComponent_;
@@ -82,10 +82,38 @@ namespace ddd
 
 	//-------------------------------------------------------------------------
 
-	inline RenderLevelComponent& LevelWindow::getRenderComponent()
+	inline RenderLevelComponent& LevelWindow::getRenderComponent()const
 	{
 		assert(0 != renderComponent_);
 		return *renderComponent_;
+	}
+
+	//-------------------------------------------------------------------------
+
+	inline void LevelWindow::addActor( Actor& actor )
+	{
+		getLogicComponent().addActor(actor);
+	}
+
+	//-------------------------------------------------------------------------
+
+	inline Actor& LevelWindow::getActor( const unsigned long actorID )const
+	{
+		return getLogicComponent().getActor(actorID);
+	}
+
+	//-------------------------------------------------------------------------
+
+	inline const Actor& LevelWindow::getActorConst( const unsigned long actorID )const
+	{
+		return getLogicComponent().getActorConst(actorID);
+	}
+
+	//-------------------------------------------------------------------------
+
+	inline void LevelWindow::removeActor(  const unsigned long actorID  )
+	{
+		getLogicComponent().removeActor(actorID);
 	}
 
 	//-------------------------------------------------------------------------
