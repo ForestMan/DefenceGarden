@@ -29,6 +29,11 @@ namespace ddd
 		inline Factory* getFactory()const;
 		inline const bool hasFactory()const;
 
+		void addGame( TLuaTable* gameTable );
+		void addActor( TLuaTable* actorTable, 
+				const unsigned long gameID, 
+				const unsigned long levelID );
+
 	protected:
 
 		void initGameStates();

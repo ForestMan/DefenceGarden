@@ -22,19 +22,17 @@ namespace ddd
 
 		inline const bool isInited()const;
 
-		void addGame( TLuaTable* gameTable );
 		void addLevel( TLuaTable* levelTable, 
 						const unsigned long gameID );
-		void addActor( TLuaTable* actorTable, 
-						const unsigned long gameID, 
-						const unsigned long levelID );
-	protected:
 
 		virtual Game* createGame( const char* name );
 		virtual Level* createLevel( const char* name );
 		virtual Actor* createActor( const char* name );
 
+	protected:
+
 		inline Application& getApplication();
+
 	private:
 
 		TScript* script_;

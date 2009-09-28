@@ -2,6 +2,8 @@
 #include "globaldefines.h"
 #include "settings.h"
 
+#include "dg/DGTypes.h"
+
 #include <pf/pflib.h>
 
 #include "pf/debug.h"
@@ -40,7 +42,7 @@ void GameWindow::Init(TWindowStyle &style)
 	TScript * s = TWindowManager::GetInstance()->GetScript();
 	ScriptRegisterMemberDirect(s,"SendGameMessage",this,GameWindow::SendGameMessage);
 
-	ddd::LevelWindow::Init( style );
+	ddd::LevelWindow::init( style, LT_MAIN_LEVEL, GT_DEFENCE_GARDEN );
 }
 
 /**

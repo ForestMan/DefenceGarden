@@ -30,6 +30,9 @@ namespace ddd
 		~LevelWindow();
 
 		virtual void Init(TWindowStyle &style);
+		void init(TWindowStyle &style, 
+					const unsigned long levelID,
+					const unsigned long gameID );
 
 		void Draw();
 		virtual bool OnTaskAnimate();

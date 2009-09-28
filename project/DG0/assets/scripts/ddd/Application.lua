@@ -10,9 +10,9 @@ classInheritance( Application, ILua )
 
 --------------------------------------------------------------------------------
 
-GAME_DEFENCE_GARDEN = 1;
+GT_DEFENCE_GARDEN = 0;
 
 function Application:onInit()
-	createGame( "game", GAME_DEFENCE_GARDEN );
+	createGame( "game", GT_DEFENCE_GARDEN );
 	return true;
 end

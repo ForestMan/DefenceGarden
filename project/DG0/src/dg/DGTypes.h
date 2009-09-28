@@ -1,0 +1,17 @@
+#pragma once
+
+enum EGameTypes
+{
+	GT_DEFENCE_GARDEN = 0,
+
+	GT_FIRST = GT_DEFENCE_GARDEN,
+	GT_LAST = GT_DEFENCE_GARDEN
+};
+
+enum ELevelTypes
+{
+	LT_MAIN_LEVEL = 0,
+	
+	LT_FIRST = LT_MAIN_LEVEL,
+	LT_LAST = LT_MAIN_LEVEL
+};

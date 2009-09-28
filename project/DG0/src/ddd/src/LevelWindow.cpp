@@ -33,8 +33,17 @@ namespace ddd
 
 		// Send keyboard events our way if no one else uses them
 		FindParentModal()->SetDefaultFocus(this);
+	}
 
-		Application::get_mutable_instance().getEntity( 1 ).addEntity( *this );
+	//-------------------------------------------------------------------------
+
+	void LevelWindow::init(TWindowStyle &style, 
+			const unsigned long levelID,
+			const unsigned long gameID )
+	{
+		LevelWindow::Init(style);
+		setID(levelID);
+		ddd::Application::get_mutable_instance().getEntity( gameID ).addEntity( *this );
 	}
 
 	//-------------------------------------------------------------------------

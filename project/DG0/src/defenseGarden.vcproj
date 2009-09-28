@@ -621,6 +621,10 @@
 			Name="dg"
 			>
 			<File
+				RelativePath=".\dg\DGTypes.h"
+				>
+			</File>
+			<File
 				RelativePath=".\dg\GameWindow.cpp"
 				>
 			</File>
