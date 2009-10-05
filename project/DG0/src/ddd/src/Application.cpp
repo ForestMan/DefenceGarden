@@ -9,9 +9,12 @@
 #include "ddd/Game.h"
 #include "ddd/Factory.h"
 #include "ddd/Actor.h"
+#include "ddd/BaseWindow.h"
 
 namespace ddd
 {
+	static BaseWindow* sBufferBaseWindow = 0;
+
 	void Application::initApplication( TLuaTable* luaTable )
 	{
 		ddd::Application::get_mutable_instance().init( luaTable );
@@ -73,9 +76,11 @@ namespace ddd
 		getFactory()->init( TWindowManager::GetInstance()->GetScript(), this );
 		
 		ScriptRegisterMemberDirect( TWindowManager::GetInstance()->GetScript(),"addGame", this, Application::addGame );
+		ScriptRegisterMemberDirect( TWindowManager::GetInstance()->GetScript(),"addLevel", this, Application::addLevel );
 		ScriptRegisterMemberDirect( TWindowManager::GetInstance()->GetScript(),"addActor", this, Application::addActor );
 		
 		initLuaFunction( 0, "onInit" );
+		initLuaFunction( 1, "onCreateLevelTable" );
 		executeLuaFunction( 0 );
 	}
 
@@ -84,9 +89,11 @@ namespace ddd
 	void Application::onRelease()
 	{
 		ScriptUnregisterFunction( TWindowManager::GetInstance()->GetScript(), "addGame" );
+		ScriptUnregisterFunction( TWindowManager::GetInstance()->GetScript(), "addLevel" );
 		ScriptUnregisterFunction( TWindowManager::GetInstance()->GetScript(), "addActor" );
 
 		releaseLuaFunction( 0 );
+		releaseLuaFunction( 1 );
 		getFactory()->release();
 		Factory* factory( getFactory() );
 		setFactory( 0 );
@@ -116,6 +123,28 @@ namespace ddd
 		assert( 0 != actor );
 		actor->init( actorTable );
 		getEntity( gameID ).getEntity( levelID ).addActor( *actor );
+	}
+
+	//-------------------------------------------------------------------------
+
+	void Application::addLevel( TLuaTable* gameTable )
+	{
+		assert( 0 != sBufferBaseWindow );
+		sBufferBaseWindow->init(gameTable);
+		sBufferBaseWindow = 0;
+	}
+	
+	//-------------------------------------------------------------------------
+
+	void Application::createLevelTable( ddd::BaseWindow* window,
+						const unsigned long levelID)
+	{
+		sBufferBaseWindow = window;
+		
+		TScript * pScript( TWindowManager::GetInstance()->GetScript() );
+		TLuaTable * pTable( TLuaTable::Create( pScript->GetState() ) );
+		pTable->Assign( "levelID", static_cast<lua_Number>(levelID) );
+		executeLuaFunction( 1, pTable );
 	}
 
 	//-------------------------------------------------------------------------

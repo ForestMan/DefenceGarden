@@ -42,7 +42,7 @@ namespace ddd
 			const unsigned long gameID )
 	{
 		LevelWindow::Init(style);
-		setID(levelID);
+		ddd::Application::get_mutable_instance().createLevelTable(this, levelID);
 		ddd::Application::get_mutable_instance().getEntity( gameID ).addEntity( *this );
 	}
 

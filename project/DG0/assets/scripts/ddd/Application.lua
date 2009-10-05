@@ -16,3 +16,8 @@ function Application:onInit()
 	createGame( "game", GT_DEFENCE_GARDEN );
 	return true;
 end
+
+function Application:onCreateLevelTable(levelID)
+	createLevel(levelID);
+	return true;
+end

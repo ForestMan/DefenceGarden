@@ -6,4 +6,16 @@
 namespace ddd
 {
 	PFTYPEIMPL_DC(BaseWindow);
+
+	BaseWindow::BaseWindow()
+	{
+	}
+
+	void BaseWindow::onInit()
+	{
+	}
+	
+	void BaseWindow::onRelease()
+	{
+	}
 }

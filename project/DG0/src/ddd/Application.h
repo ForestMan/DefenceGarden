@@ -14,6 +14,7 @@ namespace ddd
 
 	class Factory;
 	class Game;
+	class BaseWindow;
 
 	class Application 
 		: public boost::serialization::singleton<Application>
@@ -30,6 +31,9 @@ namespace ddd
 		inline const bool hasFactory()const;
 
 		void addGame( TLuaTable* gameTable );
+		void addLevel( TLuaTable* gameTable );
+		void createLevelTable( ddd::BaseWindow* window, 
+				const unsigned long levelID );
 		void addActor( TLuaTable* actorTable, 
 				const unsigned long gameID, 
 				const unsigned long levelID );

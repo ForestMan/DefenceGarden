@@ -37,8 +37,6 @@ namespace ddd
 		void Draw();
 		virtual bool OnTaskAnimate();
 
-		inline const unsigned long getID()const;
-
 		//logic level interface
 		inline void addActor( Actor& actor );
 		inline Actor& getActor( const unsigned long actorID )const;
@@ -46,34 +44,17 @@ namespace ddd
 		inline void removeActor(  const unsigned long actorID  );
 
 	private:
-
-		inline void setID( const unsigned long levelID );
 		
 		//Level window interface
 		inline LogicLevelComponent& getLogicComponent()const;
 		inline RenderLevelComponent& getRenderComponent()const;
 
 	private:
-		
-		unsigned long levelID_;
+
 
 		LogicLevelComponent* logicComponent_;
 		RenderLevelComponent* renderComponent_;
 	};
-
-	//-------------------------------------------------------------------------
-
-	inline const unsigned long LevelWindow::getID()const
-	{
-		return levelID_;
-	}
-
-	//-------------------------------------------------------------------------
-
-	inline void LevelWindow::setID( const unsigned long levelID )
-	{
-		levelID_ = levelID;
-	}
 
 	//-------------------------------------------------------------------------
 
