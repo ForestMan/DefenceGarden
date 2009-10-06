@@ -596,6 +596,10 @@
 					>
 				</File>
 				<File
+					RelativePath="..\assets\scripts\ddd\Constants.lua"
+					>
+				</File>
+				<File
 					RelativePath="..\assets\scripts\ddd\Factory.lua"
 					>
 				</File>

@@ -13,9 +13,12 @@ namespace ddd
 
 	void BaseWindow::onInit()
 	{
+		initLuaFunction( 0, "onInit" );
+		executeLuaFunction( 0 );
 	}
 	
 	void BaseWindow::onRelease()
 	{
+		releaseLuaFunction( 0 );
 	}
 }

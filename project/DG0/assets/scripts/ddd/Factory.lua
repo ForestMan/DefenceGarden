@@ -1,6 +1,6 @@
 
 require( "scripts/ddd/Game.lua" );
-require( "scripts/ddd/Level.lua" );
+require( "scripts/ddd/Actor.lua" );
 
 --------------------------------------------------------------------------------
 
@@ -13,10 +13,11 @@ end
 
 --------------------------------------------------------------------------------
 
-function createLevel(levelID)
-	level=Level:new();
-	level.ID_ = levelID;
-	addLevel( level );
+function createActor(actorID, actorType, gameID, levelID)
+	actor=Actor:new();
+	actor.ID_ = actorID;
+	actor.type_= actorType;
+	addActor( actor, gameID, levelID );
 end
 
 --------------------------------------------------------------------------------

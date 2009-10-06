@@ -12,7 +12,14 @@ namespace ddd
 		Actor();
 		virtual ~Actor();
 
+		void update();
+
 	protected:
+		
+		virtual void onInit();
+		virtual void onRelease();
+		virtual void onUpdate();
+
 	private:
 	};
 }

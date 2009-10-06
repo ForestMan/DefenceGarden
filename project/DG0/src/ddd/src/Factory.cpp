@@ -65,7 +65,12 @@ namespace ddd
 	
 	Actor* Factory::createActor( const char* name )
 	{
-		return 0;
+		Actor* result( 0 );
+		if ( !strcmp( name, "actor" ) )
+		{
+			result = new Actor();
+		}
+		return result;
 	}
 
 }
