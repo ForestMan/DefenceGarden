@@ -17,7 +17,7 @@ namespace ddd
 
 	//-------------------------------------------------------------------------
 
-	void LogicLevelComponent::update( LevelWindow* owner )
+	void LogicLevelComponent::update( LevelWindow* /*owner*/ )
 	{
 	}
 
@@ -25,7 +25,7 @@ namespace ddd
 
 	void LogicLevelComponent::onCreate()
 	{
-		removeAllActors();
+		destroyAllActors();
 	}
 	
 	//-------------------------------------------------------------------------
@@ -38,7 +38,7 @@ namespace ddd
 
 	void LogicLevelComponent::onRelease()
 	{
-		removeAllActors();
+		destroyAllActors();
 	}
 
 	//-------------------------------------------------------------------------

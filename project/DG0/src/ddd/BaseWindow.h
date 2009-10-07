@@ -16,10 +16,16 @@ namespace ddd
 	public:
 		BaseWindow();
 
+		inline const unsigned long getGameID()const;
 	protected:
 
 		virtual void onInit();
 		virtual void onRelease();
 	};
+
+	inline const unsigned long BaseWindow::getGameID()const
+	{
+		return getULong( getLuaTable(), "gameID_" );
+	}
 
 }

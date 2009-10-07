@@ -8,7 +8,6 @@ namespace ddd
 	ILevelComponent::ILevelComponent()
 		: create_( false )
 		, init_( false )
-		, componentID_( MAX_UNSIGN_LONG )
 	{
 	}
 

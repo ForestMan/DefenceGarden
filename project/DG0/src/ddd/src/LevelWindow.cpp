@@ -22,6 +22,7 @@ namespace ddd
 
 	LevelWindow::~LevelWindow()
 	{
+		release();
 	}
 
 	//-------------------------------------------------------------------------
@@ -37,13 +38,16 @@ namespace ddd
 
 	//-------------------------------------------------------------------------
 
-	void LevelWindow::init(TWindowStyle &style, 
+	void LevelWindow::initWindow(TWindowStyle &style, 
 			const unsigned long levelID,
 			const unsigned long gameID )
 	{
 		LevelWindow::Init(style);
-		ddd::Application::get_mutable_instance().createLevelTable(this, levelID);
-		ddd::Application::get_mutable_instance().getEntity( gameID ).addEntity( *this );
+		getLogicComponent().create();
+		getLogicComponent().init();
+		getRenderComponent().create();
+		getRenderComponent().init();
+		ddd::Application::get_mutable_instance().createLevelTable(this, levelID, gameID);
 	}
 
 	//-------------------------------------------------------------------------
@@ -59,6 +63,26 @@ namespace ddd
 	{
 		getLogicComponent().update(this);
 		return true;
+	}
+
+	//-------------------------------------------------------------------------
+
+	void LevelWindow::onInit()
+	{
+		initLuaFunction( 0, "onInit" );
+		ddd::Application::get_mutable_instance().getEntity( getGameID() ).addEntity( *this );
+
+		executeLuaFunction( 0 );
+	}
+
+	//-------------------------------------------------------------------------
+	
+	void LevelWindow::onRelease()
+	{
+		releaseLuaFunction( 0 );
+		getLogicComponent().release();
+		getRenderComponent().release();
+		ddd::Application::get_mutable_instance().getEntity( getGameID() ).removeEntity( getID() );
 	}
 
 	//-------------------------------------------------------------------------

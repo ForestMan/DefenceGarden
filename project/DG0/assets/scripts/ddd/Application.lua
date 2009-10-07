@@ -6,10 +6,10 @@ require( "scripts/ddd/Constants.lua" );
 
 --------------------------------------------------------------------------------
 
-function createLevel(levelID)
+function createLevel(levelID, gameID)
 	level=Level:new();
 	level.ID_ = levelID;
-	--level.gameID_ = gameID;
+	level.gameID_ = gameID;
 	addLevel( level );
 end
 
@@ -26,7 +26,7 @@ function Application:onInit()
 	return true;
 end
 
-function Application:onCreateLevelTable(levelID)
-	createLevel(levelID);
+function Application:onCreateLevelTable(levelID, gameID)
+	createLevel(levelID, gameID);
 	return true;
 end

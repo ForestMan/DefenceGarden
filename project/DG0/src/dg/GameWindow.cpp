@@ -42,7 +42,7 @@ void GameWindow::Init(TWindowStyle &style)
 	TScript * s = TWindowManager::GetInstance()->GetScript();
 	ScriptRegisterMemberDirect(s,"SendGameMessage",this,GameWindow::SendGameMessage);
 
-	ddd::LevelWindow::init( style, LT_MAIN_LEVEL, GT_DEFENCE_GARDEN );
+	ddd::LevelWindow::initWindow( style, LT_MAIN_LEVEL, GT_DEFENCE_GARDEN );
 }
 
 /**

@@ -1,4 +1,5 @@
 #include "ddd/Game.h"
+#include "ddd/Application.h"
 
 namespace ddd
 {
@@ -15,6 +16,8 @@ namespace ddd
 	{
 		removeAllEntity();
 		initLuaFunction( 0, "onInit" );
+
+		ddd::Application::get_mutable_instance().addEntity(*this);
 		executeLuaFunction( 0 );
 	}
 

@@ -9,17 +9,23 @@
 #include "ddd/Game.h"
 #include "ddd/Factory.h"
 #include "ddd/Actor.h"
-#include "ddd/BaseWindow.h"
+#include "ddd/LevelWindow.h"
 
 namespace ddd
 {
-	static BaseWindow* sBufferBaseWindow = 0;
+	static LevelWindow* sBufferBaseWindow = 0;
 
 	void Application::initApplication( TLuaTable* luaTable )
 	{
 		ddd::Application::get_mutable_instance().init( luaTable );
 	}
 
+	//-------------------------------------------------------------------------
+
+	Application::~Application()
+	{
+	}
+	
 	//-------------------------------------------------------------------------
 
 	void Application::initPlayground(TPlatform* pPlatform)
@@ -98,6 +104,13 @@ namespace ddd
 		Factory* factory( getFactory() );
 		setFactory( 0 );
 		delete factory;
+
+		/*begin();
+		while(Game* game=getNextEntity())
+		{
+			game->release();
+		}*/
+		//for( unsigned int i=0;i<)
 		removeAllEntity();
 	}
 
@@ -109,7 +122,6 @@ namespace ddd
 		Game* game = getFactory()->createGame( gameTable->GetString( "type_" ).c_str() );
 		assert( 0 != game );
 		game->init( gameTable );
-		addEntity( *game );
 	}
 
 	//-------------------------------------------------------------------------
@@ -136,14 +148,16 @@ namespace ddd
 	
 	//-------------------------------------------------------------------------
 
-	void Application::createLevelTable( ddd::BaseWindow* window,
-						const unsigned long levelID)
+	void Application::createLevelTable( ddd::LevelWindow* window,
+						const unsigned long levelID,
+						const unsigned long gameID)
 	{
 		sBufferBaseWindow = window;
 		
 		TScript * pScript( TWindowManager::GetInstance()->GetScript() );
 		TLuaTable * pTable( TLuaTable::Create( pScript->GetState() ) );
 		pTable->Assign( "levelID", static_cast<lua_Number>(levelID) );
+		pTable->Assign( "gameID", static_cast<lua_Number>(gameID) );
 		executeLuaFunction( 1, pTable );
 	}
 

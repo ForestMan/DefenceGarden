@@ -27,7 +27,7 @@ namespace ddd
 		typedef std::map< unsigned long, TEntity* > ContainerMap;
 
 		ContainerMap entityMap_;
-		typename ContainerMap::iterator iterContainer_;
+		typename std::map< unsigned long, TEntity* >::iterator iterContainer_;
 	};
 
 	//-------------------------------------------------------------------------
@@ -71,7 +71,7 @@ namespace ddd
 	inline TEntity* Container< TEntity >::begin()
 	{
 		iterContainer_ = entityMap_.begin();
-		return iterContainer_ == entityMap.end() ? 0 : iterContainer_.second;
+		return iterContainer_ == entityMap_.end() ? 0 : iterContainer_.second;
 	}
 
 	//-------------------------------------------------------------------------
@@ -79,7 +79,14 @@ namespace ddd
 	template< class TEntity >
 	inline TEntity* Container< TEntity >::getNextEntity()
 	{
-		iterContainer_ == entityMap.end() ? return 0 : ( iterContainer_++; return iterContainer_.second );
+		if(entityMap_.end() == iterContainer_)
+		{
+			return 0;
+		}else
+		{
+			iterContainer_++; 
+			return iterContainer_.second;
+		}
 	}
 
 	//-------------------------------------------------------------------------

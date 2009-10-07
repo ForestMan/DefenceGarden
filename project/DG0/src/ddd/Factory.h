@@ -22,9 +22,6 @@ namespace ddd
 
 		inline const bool isInited()const;
 
-		void addLevel( TLuaTable* levelTable, 
-						const unsigned long gameID );
-
 		virtual Game* createGame( const char* name );
 		virtual Level* createLevel( const char* name );
 		virtual Actor* createActor( const char* name );

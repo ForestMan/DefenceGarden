@@ -15,9 +15,6 @@ namespace ddd
 		inline const bool isCreate()const;
 		inline const bool isInit()const; 
 
-		inline void setID( const unsigned long id );
-		inline const unsigned long getID()const;
-
 	private:
 		
 		virtual void onCreate() = 0;
@@ -31,7 +28,6 @@ namespace ddd
 	
 		bool create_;
 		bool init_;
-		unsigned long componentID_;
 	};
 	
 	//-------------------------------------------------------------------------
@@ -60,20 +56,6 @@ namespace ddd
 	inline void ILevelComponent::setInit( const bool init )
 	{
 		init_ = init;
-	}
-
-	//-------------------------------------------------------------------------
-
-	inline void ILevelComponent::setID( const unsigned long id )
-	{
-		componentID_ = id;
-	}
-	
-	//-------------------------------------------------------------------------
-
-	inline const unsigned long ILevelComponent::getID()const
-	{
-		return componentID_;
 	}
 
 	//-------------------------------------------------------------------------

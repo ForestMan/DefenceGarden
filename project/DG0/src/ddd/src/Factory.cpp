@@ -23,24 +23,12 @@ namespace ddd
 		assert( !isInited() );
 		script_ = script;
 		application_ = app;
-		ScriptRegisterMemberDirect( script_,"addLevel", this, Factory::addLevel );
 	}
 	
 	void Factory::release()
 	{
 		assert( isInited() );
-		ScriptUnregisterFunction( script_, "addLevel" );
 		script_ = 0;
-	}
-
-	void Factory::addLevel( TLuaTable* levelTable, 
-					const unsigned long gameID )
-	{
-		assert( 0 != levelTable );
-		Level* level = createLevel( levelTable->GetString( "type_" ).c_str() );
-		assert( 0 != level );
-		level->init( levelTable );
-		//getApplication().getEntity( gameID ).addEntity( *level );
 	}
 
 	Game* Factory::createGame( const char* name )

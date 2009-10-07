@@ -16,7 +16,7 @@ namespace ddd
 
 	//-------------------------------------------------------------------------
 
-	void RenderLevelComponent::render( LevelWindow* owner )
+	void RenderLevelComponent::render( LevelWindow* /*owner*/ )
 	{
 	}
 

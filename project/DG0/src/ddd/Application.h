@@ -14,7 +14,7 @@ namespace ddd
 
 	class Factory;
 	class Game;
-	class BaseWindow;
+	class LevelWindow;
 
 	class Application 
 		: public boost::serialization::singleton<Application>
@@ -22,6 +22,7 @@ namespace ddd
 		, public Container< Game >
 	{
 	public:
+		~Application();
 
 		void initPlayground( TPlatform* pPlatform );
 		void run( TPlatform* pPlatform );
@@ -32,8 +33,9 @@ namespace ddd
 
 		void addGame( TLuaTable* gameTable );
 		void addLevel( TLuaTable* gameTable );
-		void createLevelTable( ddd::BaseWindow* window, 
-				const unsigned long levelID );
+		void createLevelTable( ddd::LevelWindow* window, 
+				const unsigned long levelID,
+				const unsigned long gameID);
 		void addActor( TLuaTable* actorTable, 
 				const unsigned long gameID, 
 				const unsigned long levelID );
