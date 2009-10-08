@@ -19,6 +19,8 @@ namespace ddd
 		inline TEntity* begin();
 		inline TEntity* getNextEntity();
 
+		inline typename std::map< unsigned long, TEntity* >::iterator beginContainer();
+		inline typename std::map< unsigned long, TEntity* >::iterator endContainer();
 	private:
 		
 		inline const bool hasEntity( const unsigned long entityID );
@@ -71,7 +73,7 @@ namespace ddd
 	inline TEntity* Container< TEntity >::begin()
 	{
 		iterContainer_ = entityMap_.begin();
-		return iterContainer_ == entityMap_.end() ? 0 : iterContainer_.second;
+		return iterContainer_ == entityMap_.end() ? 0 : iterContainer_->second;
 	}
 
 	//-------------------------------------------------------------------------
@@ -79,13 +81,13 @@ namespace ddd
 	template< class TEntity >
 	inline TEntity* Container< TEntity >::getNextEntity()
 	{
+		iterContainer_++;
 		if(entityMap_.end() == iterContainer_)
 		{
 			return 0;
 		}else
 		{
-			iterContainer_++; 
-			return iterContainer_.second;
+			return iterContainer_->second;
 		}
 	}
 

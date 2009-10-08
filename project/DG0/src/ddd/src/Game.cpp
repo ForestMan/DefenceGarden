@@ -24,6 +24,15 @@ namespace ddd
 	void Game::onRelease()
 	{
 		releaseLuaFunction( 0 );
+		LevelWindow* level = begin();
+		while(level)
+		{
+			if ( level->isInited() )
+			{
+				level->release();
+			}
+			level = getNextEntity();
+		}
 		removeAllEntity();
 	}
 }

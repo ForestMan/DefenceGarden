@@ -22,7 +22,11 @@ namespace ddd
 
 	LevelWindow::~LevelWindow()
 	{
-		release();
+		if ( isInited() )
+		{
+			ddd::Application::get_mutable_instance().getEntity( getGameID() ).removeEntity( getID() );
+			release();
+		}
 	}
 
 	//-------------------------------------------------------------------------
@@ -82,7 +86,6 @@ namespace ddd
 		releaseLuaFunction( 0 );
 		getLogicComponent().release();
 		getRenderComponent().release();
-		ddd::Application::get_mutable_instance().getEntity( getGameID() ).removeEntity( getID() );
 	}
 
 	//-------------------------------------------------------------------------

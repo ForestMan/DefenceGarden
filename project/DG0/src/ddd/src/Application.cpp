@@ -105,12 +105,16 @@ namespace ddd
 		setFactory( 0 );
 		delete factory;
 
-		/*begin();
-		while(Game* game=getNextEntity())
+		Game* game = begin();
+		while(game)
 		{
-			game->release();
-		}*/
-		//for( unsigned int i=0;i<)
+			if ( game->isInited() )
+			{
+				game->release();
+			}
+			game=getNextEntity();
+		}
+
 		removeAllEntity();
 	}
 
